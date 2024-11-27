@@ -4,3 +4,5 @@ services:
         image: nginx
         volumes:
             - ./:/usr/share/nginx/html
+        expose:
+            - 80
